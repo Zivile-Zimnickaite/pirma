@@ -1,38 +1,338 @@
+
+/* Task 15------------------------------ */
+
 .App {
-  text-align: center;
+  padding: 50px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.d-flex {
+  display: flex;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.flex-wrap {
+  flex-wrap: wrap;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.flex-column {
+  flex-direction: column;
+}
+
+.j-center {
+  justify-content: center;
+}
+
+.space-btw {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
+
+input {
+  padding: 20px
+}
+
+
+.productCard {
+  width: 300px;
+  padding: 10px;
+  margin: 5px;
+  background-color: #e8e8e8;
+}
+
+.productCard img {
+  width: 100%;
+}
+
+.wrapper {
+  position: relative;
+}
+
+.arrow {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.arrowOne {
+  display: flex;
+  align-items: center;
+}
+
+.arrowTwo {
+  left: 50%;
+  display: flex;
+  /* justify-content: end; */
+  align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Task 13 CSS------------------------ */
+
+/* .App {
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.main {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1000px;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+
+.userForm {
+  width: 200px;
+  
+  margin: 20px;
+  padding: 20px;
+  background-color: rgba(253, 253, 117, 0.257);
   display: flex;
   flex-direction: column;
-  align-items: center;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 10px;
+}
+
+.userImage {
+  width: 200px;
+  height: 150px;
+  margin-bottom: 20px;
+  object-fit: cover;
+  
+}
+
+.inputField {
+  margin-top: 5px;
+}
+
+.addUserButton {
+  margin-top: 30px;
+}
+
+.usersContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  
+ }
+
+ .userFillForm {
+  margin-left: 10px;
+ }
+
+
+.filter {
+    width: 200px;
+    height: 100px;
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+
+}
+
+.userImagePostCard {
+  width: 200px;
+  height: 150px;
+  
+  object-fit: cover;
+  
+}
+
+.addUser {
+  width: 200px;
+ 
+  margin: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  border-width: 1px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 10px;
+}
+
+.productImage {
+  width: 150px;
+} */
+
+
+
+
+
+
+/*----------- CSS pradzia 10-os uzduoties--------------- */
+/* .App {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
+.main {
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  padding: 100px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.playerDiv {
+width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(46, 20, 20);
+  padding: 10px;
+
 }
+
+.playerImage{
+  background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/06944507-56d4-4a71-97cb-7e85ca2a9aa6/ddcohzz-437b43df-b378-4df1-baae-8dcf06b9567a.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzA2OTQ0NTA3LTU2ZDQtNGE3MS05N2NiLTdlODVjYTJhOWFhNlwvZGRjb2h6ei00MzdiNDNkZi1iMzc4LTRkZjEtYmFhZS04ZGNmMDZiOTU2N2EucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.t3tkRC0jfA_WfwZEi3NuERvItFsu9GDgCV3Mfv-PnkA");
+  background-size: cover;
+  height: 200px;
+  width: 200px;
+  
+}
+
+.lifeScore{
+  width: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+
+.onePointOfLife {
+background-color: rgb(13, 211, 79);
+  width: 18px;
+  height: 10px;
+  
+}
+
+
+img {
+  height: 200px;
+}
+
+
+.hit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+ background-color: rgb(11, 149, 15);
+  background-size: cover;
+  margin: -100px;
+  color: rgba(250, 248, 247, 0.898);
+  font-size: 80px;
+} */
+
+
+/*----------- CSS abaiga 10-os uzduoties--------------- */
+
+
+
+
+
+
+
+
+/*----------- CSS pradzia 1-9 uzduoties--------------- */
+
+/* 
+.App {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main {
+  
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.img {
+  width: 100px;
+}
+
+.card {
+  width: 250px;
+  height: 500px;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+  border-width: 1px;
+  border-color: grey;
+  border-style: solid;
+}
+.mainComponent {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.bodyContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.center {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.colorContainer {
+display: flex;
+justify-content: space-between;
+margin: 20px;
+padding: 10px
+}
+
+.box {
+  height: 200px;
+  width: 500px;
+}
+
+img {
+  height: 250px;
+} */
+
+/*----------- CSS pabaiga 1-9 uzduoties--------------- */
