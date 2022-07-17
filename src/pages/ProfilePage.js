@@ -11,7 +11,7 @@ const ProfilePage = () => {
     const photoRef = useRef()
     const newPasswordRef = useRef()
     const userState = useSelector(state => state.user.value)
-    console.log(userState)
+
 
 
 

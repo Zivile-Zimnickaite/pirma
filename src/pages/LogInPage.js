@@ -21,7 +21,7 @@ const LoginPage = () => {
 
         const userLoggedIn = allUsers.find(x => x.username === user.username && x.password === user.password)
 
-        console.log(userLoggedIn)
+
         if (!userLoggedIn) return setError("Please provide correct credentials")
 
 

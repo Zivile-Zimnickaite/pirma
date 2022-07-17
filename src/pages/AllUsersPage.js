@@ -6,7 +6,7 @@ const AllUsersPage = () => {
 
 
     const allUsers = useSelector(state => state.user.value.allUsers)
-    console.log(allUsers)
+
 
 
     return (

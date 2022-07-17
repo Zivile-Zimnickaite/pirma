@@ -8,7 +8,7 @@ const UserCard = ({ user }) => {
 
     return (
         <div className='userCardWrapper'>
-            <div onClick={() => nav('/user/:username/' + user.username)} className='user-card'>
+            <div onClick={() => nav('/user/' + user.username)} className='user-card'>
                 <div className='imgBox'>
                     <img src={user.photo} alt="" />
                 </div>

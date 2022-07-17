@@ -33,7 +33,7 @@ const RegisterPage = () => {
             photo: "https://odenta32.lt/wp-content/uploads/2022/05/blank-profile-picture-973460_640.png"
         }
 
-        console.log(user)
+
 
         if (user.userName.length < 4 || user.userName.length > 20) invalid = "Username should be minimum 4 and maximum 20 symbols"
 
