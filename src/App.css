@@ -1,338 +1,180 @@
-
-/* Task 15------------------------------ */
-
-.App {
-  padding: 50px;
+.mainContainer {
+    width: 900px;
+    background-color: rgb(191, 236, 246);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
+.profilePageContainer {
+    width: 900px;
+    background-color: rgb(202, 218, 221);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    padding: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.links {
+    padding-right: 15px;
+    color: black;
+    font-size: larger;
+    text-decoration: none;
+}
+
+.links:hover {
+text-shadow: 10px;
+transform: scale(1.1);
+}
+
+.imgBox {
+    width: 100px;
+    height: 100px;
+    background-color: antiquewhite;
+}
+.imgBox img{
+    width: 100px;
+    height: 100px;
+    background-color: white; 
+}
+
+
+
+.userCard img{
+    height: 200px;
+    margin: 10px;
+    background-color: bisque;
+}
+
+.userCard{
+    display: flex;
+    flex-direction: column;
+    }
+
+    .margin-top-100{
+        margin-top: 100px;
+    }
+
+
 .d-flex {
-  display: flex;
+    display: flex;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+.flex-column {
+    flex-direction: column;
 }
 
 .flex-wrap {
-  flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.justify-content-center {
+    justify-content: center;
 }
 
-.flex-column {
-  flex-direction: column;
+.justify-content-space-around {
+    justify-content: space-around;
+}
+.align-items-center {
+    align-items: center;
+}
+input, button{
+    padding: 5px;
+    margin: 5px 20px 5px 20px;
 }
 
-.j-center {
-  justify-content: center;
+.padding-5 {
+    padding: 5px;
 }
-
-.space-btw {
-  justify-content: space-between;
-}
-
-.align-center {
-  align-items: center;
-}
-
-input {
-  padding: 20px
-}
-
-
-.productCard {
-  width: 300px;
-  padding: 10px;
-  margin: 5px;
-  background-color: #e8e8e8;
-}
-
-.productCard img {
-  width: 100%;
-}
-
-.wrapper {
-  position: relative;
-}
-
-.arrow {
-  position: absolute;
-  width: 50%;
-  height: 100%;
-  font-size: 40px;
-  cursor: pointer;
-}
-
-.arrowOne {
-  display: flex;
-  align-items: center;
-}
-
-.arrowTwo {
-  left: 50%;
-  display: flex;
-  /* justify-content: end; */
-  align-items: center;
+.margin-10 {
+    margin: 10px;
 }
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Task 13 CSS------------------------ */
-
-/* .App {
-  margin-left: auto;
-  margin-right: auto;
-
-}
-
-.main {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 1000px;
-  display: grid;
-  grid-template-columns: 1fr 4fr;
-}
-
-.userForm {
-  width: 200px;
-  
-  margin: 20px;
-  padding: 20px;
-  background-color: rgba(253, 253, 117, 0.257);
-  display: flex;
-  flex-direction: column;
-  border-width: 1px;
-  border-style: solid;
-  border-color: black;
-  border-radius: 10px;
-}
-
-.userImage {
-  width: 200px;
-  height: 150px;
-  margin-bottom: 20px;
-  object-fit: cover;
-  
-}
-
-.inputField {
-  margin-top: 5px;
-}
-
-.addUserButton {
-  margin-top: 30px;
-}
-
-.usersContainer {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr ;
-  
- }
-
- .userFillForm {
-  margin-left: 10px;
- }
-
-
-.filter {
-    width: 200px;
-    height: 100px;
-    margin: 20px;
+.title {
+    text-align: center;
     padding: 20px;
-    display: flex;
-    flex-direction: column;
-    border-width: 1px;
-    border-style: solid;
-    border-color: black;
-    border-radius: 10px;
-
-}
-
-.userImagePostCard {
-  width: 200px;
-  height: 150px;
-  
-  object-fit: cover;
-  
-}
-
-.addUser {
-  width: 200px;
- 
-  margin: 20px;
-  padding: 20px;
-  background-color: #f9f9f9;
-  display: flex;
-  flex-direction: column;
-  border-width: 1px;
-  border-style: solid;
-  border-color: black;
-  border-radius: 10px;
-}
-
-.productImage {
-  width: 150px;
-} */
-
-
-
-
-
-
-/*----------- CSS pradzia 10-os uzduoties--------------- */
-/* .App {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.main {
-  margin-left: auto;
-  margin-right: auto;
-  width: 300px;
-  padding: 100px;
-}
-
-.playerDiv {
-width: 200px;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: rgb(46, 20, 20);
-  padding: 10px;
-
-}
-
-.playerImage{
-  background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/06944507-56d4-4a71-97cb-7e85ca2a9aa6/ddcohzz-437b43df-b378-4df1-baae-8dcf06b9567a.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzA2OTQ0NTA3LTU2ZDQtNGE3MS05N2NiLTdlODVjYTJhOWFhNlwvZGRjb2h6ei00MzdiNDNkZi1iMzc4LTRkZjEtYmFhZS04ZGNmMDZiOTU2N2EucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.t3tkRC0jfA_WfwZEi3NuERvItFsu9GDgCV3Mfv-PnkA");
-  background-size: cover;
-  height: 200px;
-  width: 200px;
-  
-}
-
-.lifeScore{
-  width: 200px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding-top: 10px;
-}
-
-.onePointOfLife {
-background-color: rgb(13, 211, 79);
-  width: 18px;
-  height: 10px;
-  
-}
-
-
-img {
-  height: 200px;
-}
-
-
-.hit {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
- background-color: rgb(11, 149, 15);
-  background-size: cover;
-  margin: -100px;
-  color: rgba(250, 248, 247, 0.898);
-  font-size: 80px;
-} */
-
-
-/*----------- CSS abaiga 10-os uzduoties--------------- */
-
-
-
-
-
-
-
-
-/*----------- CSS pradzia 1-9 uzduoties--------------- */
-
-/* 
-.App {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.main {
-  
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-}
-
-.img {
-  width: 100px;
-}
-
-.card {
-  width: 250px;
-  height: 500px;
-  margin: 10px;
-  padding: 10px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 20px;
-  border-width: 1px;
-  border-color: grey;
-  border-style: solid;
-}
-.mainComponent {
-  margin-left: auto;
-  margin-right: auto;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-
-}
-
-.bodyContainer {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
-.center {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-
-}
-
-.colorContainer {
-display: flex;
-justify-content: space-between;
-margin: 20px;
-padding: 10px
 }
 
 .box {
-  height: 200px;
-  width: 500px;
+    height: 200px;
+    background-color: blanchedalmond;
+    width: 400px;
 }
 
-img {
-  height: 250px;
-} */
+.form {
+    width: 600px;
+    background-color: white;
+}
 
-/*----------- CSS pabaiga 1-9 uzduoties--------------- */
+.justify-content-flex-start{
+    justify-content: flex-start;
+}
+
+.justify-content-flex-end{
+    justify-content: flex-end;
+}
+.justify-content-space-between{
+    justify-content: space-between;
+}
+
+.errorMessage{
+    color: red;
+    font-weight: 700;
+    padding: 5px;
+    margin: 5px 20px 5px 20px;
+
+}
+
+
+
+
+.roleButton{
+    background-color: rgba(43, 46, 226, 0.66);
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 35%;
+}
+
+.roleButton:hover {
+ transform: scale(1.1);
+}
+
+.buttonSmall{
+    background-color: rgba(94, 118, 223, 0.66);
+    color: rgb(42, 36, 217);
+    border: none;
+    width: 150px;
+    height: 40px;
+    padding: 3px;
+}
+
+.width-400 {
+    width: 400px;
+}
+
+.user-card {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(254, 254, 254);
+    margin: 20px;
+    padding: 10px;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  
+}
+.userCardWrapper{
+    display: flex;
+    flex-wrap: wrap;
+  justify-content: space-around;
+}
